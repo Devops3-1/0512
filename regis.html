@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        /* Global reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Form Styling */
+        form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Input Styling */
+        input[type="text"], input[type="checkbox"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+            margin: 5px 10px 5px 0;
+        }
+
+        /* Labels */
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            display: block;
+            color: #555;
+        }
+
+        /* Checkbox Styling */
+        .checkbox-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        /* Button Styling */
+        button.submit {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button.submit:hover {
+            background-color: #0056b3;
+        }
+
+        /* Spacing between fields */
+        .field {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Register</h1>
+
+        <div class="field">
+            <label for="fname">First Name:</label>
+            <input type="text" class="fname" id="fname" placeholder="Enter your first name">
+        </div>
+
+        <div class="field">
+            <label for="lname">Last Name:</label>
+            <input type="text" class="lname" id="lname" placeholder="Enter your last name">
+        </div>
+
+        
+        
+        
+        
+
+        <div class="field">
+            <label for="mobno">First Name:</label>
+            <input type="text" class="mobno" id="mobno" placeholder="Enter your first name">
+        </div>
+
+        <div class="field">
+            <label for="colname">last Name:</label>
+            <input type="text" class="colname" id="colname" placeholder="Enter your last name">
+        </div>
+
+        <div class="field">
+            <label for="branch">Branch:</label>
+            <input type="text" class="branch" id="branch" placeholder="Enter your branch">
+        </div>
+
+        <div class="field">
+            <label for="domain">Domain:</label>
+            <input type="text" class="domain" id="domain" placeholder="Enter your domain">
+        </div>
+
+        <div class="field">
+            <label for="fathername">Father's Name:</label>
+            <input type="text" class="fathername" id="fathername" placeholder="Enter your father's name">
+        </div>
+
+        <div class="field">
+            <label for="mothername">Mother's Name:</label>
+            <input type="text" class="mothername" id="mothername" placeholder="Enter your mother's name">
+        </div>
+
+        <div class="field">
+            <label for="address">Address:</label>
+            <input type="text" class="address" id="address" placeholder="Enter your address">
+        </div>
+
+        <div class="field">
+            <label for="admission">Admission Number:</label>
+            <input type="text" class="admission" id="admission" placeholder="Enter your admission number">
+        </div>
+
+        <div class="field checkbox-group">
+            <p>Select a sport:</p>
+            <label><input type="checkbox" class="football" name="football"> Football</label>
+            <label><input type="checkbox" class="volleyball" name="volleyball"> Volleyball</label>
+            <label><input type="checkbox" class="cricket" name="cricket"> Cricket</label>
+            <label><input type="checkbox" class="hockey" name="hockey"> Hockey</label>
+        </div>
+
+        <button class="submit" type="submit">Register</button>
+    </form>
+</body>
+</html>
